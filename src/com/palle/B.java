@@ -2,5 +2,9 @@ package com.palle;
 
 public class B
 {
-  public int i = 200;
+  public int i;
+  public B(int i)
+  {
+	  this.i=i;
+  }
 }
